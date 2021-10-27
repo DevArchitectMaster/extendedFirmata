@@ -1,0 +1,39 @@
+###########################################################
+#     I G N O R E   F I L E S   A N D   F O L D E R S     #
+###########################################################
+
+# ignore all '__pycache__' folder and file in there
+**/__pycache__/
+
+# ignore all restricted files in any 'confidential'-folders => protect private data
+**/confidential/*
+
+# ignore all generateded files
+**/generated-sources
+**/exports
+
+# ignore all 'temp'-folders and -files
+**/[.]?[Tt][Ee]?[Mm][pP]/
+**/*[Tt][Ee]?[Mm][pP]*/
+**/*[Tt][Ee]?[Mm][pP]*
+
+# ignore all 'todo'-folders and -files
+**/[.]?[Tt][Oo][Dd][Oo]/
+**/*[Tt][Oo][Dd][Oo]*/
+**/*[Tt][Oo][Dd][Oo]*
+
+# ignore '.OLD'-folder
+**/[.][Oo][Ll][Dd]/
+
+###########################################################################
+#     EXCEPTIONS:   O B S E R V E   F I L E S   A N D   F O L D E R S     #
+###########################################################################
+
+# add all gitignore-files path-independent
+!**/.gitignore
+
+# add all gitignore-files path-independent
+!**/.gitkeep
+
+# add all 'template'-files path-independent
+!**/*[Tt][Ee][Mm][Pp][Ll][Aa][Tt][Ee]*
